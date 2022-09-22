@@ -21,17 +21,10 @@ public class WithoutE {
     }
 
     public static int findE(String input) {
-        int count = 0;
-        Pattern regexPattern = Pattern.compile("[Ee]");
-        Matcher matcher = regexPattern.matcher(input);
-        while (matcher.find()) {
-            count++;
-        }
-
-        return count;
+        // Write your code here!
     }
 
     public static String withoutE(String input) {
-        return input.replaceAll("[Ee]", " ");
+        // Write your code here!
     }
 }
